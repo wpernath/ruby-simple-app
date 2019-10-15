@@ -1,0 +1,9 @@
+.bundle
+.vendor
+.env
+.git
+.gitignore
+.gitmodules
+Makefile
+bundle/
+vendor/bundle/
