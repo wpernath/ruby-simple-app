@@ -1,0 +1,19 @@
+---
+# See manifest.yml documentation available at: 
+# https://docs.developer.swisscom.com/apps/deploy-apps/manifest.html
+
+applications:
+- name: ruby-simple
+  memory: 128M
+  disk_quota: 256M
+  instances: 1
+  # buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
+  # hosts:
+  # - ruby-simple
+  # domains:
+  # - scapp.io
+  # - applicationcloud.io
+  path: .
+  env:
+    RACK_ENV: production
+    GREETING: Hello

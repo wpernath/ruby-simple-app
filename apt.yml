@@ -1,0 +1,8 @@
+---
+keys:
+- https://www.mongodb.org/static/pgp/server-4.2.asc
+repos:
+- deb https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse
+packages:
+- mongodb-org-tools=4.2.0
+- cowsay
